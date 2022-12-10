@@ -1,0 +1,9 @@
+<app-header [titulo]="titulo || 'Alert Page'"></app-header>
+<ion-content>
+<ion-button color="primary" (click)="presentAlert()" expand="full">
+    Mostrar Alerta
+</ion-button>
+<ion-button color="secondary" (click)="presentAlertPrompt()" expand="full">
+    Mostrar Input
+</ion-button>
+</ion-content>
